@@ -1,4 +1,4 @@
-# PHP-multi-process-programming-under-Linux
+#Linux下的PHP多进程编程
 
 
     进程控制块（Processing Control Block），是操作系统核心中一种数据结构，主要表示进程状态。其作用是使一个在多道程序环境下不能独立运行的程
