@@ -1,0 +1,21 @@
+  https://blog.csdn.net/fffffer/article/details/81185760?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control
+  
+  我在win10上安装Kali虚拟机后，发现虚拟机ping不通主机，而主机却可以ping通虚拟机。在网上搜寻一段时间后发现解决方案有两种。
+
+       1.关闭主机防火墙。这种方式可能会有安全隐患，故不建议使用
+
+       2.启用文件类型为“公用”的“文件和打印共享（回显请求 – ICMPv4-In）”规则。
+
+       第二种方案的步骤如下：
+
+       1.打开win10防火墙（在控制面板搜索即可打开）
+
+       2.选择高级设置（在左边选项栏中）
+
+       3.打开入站规则
+
+       4.启用文件类型为“公用”的“文件和打印共享（回显请求 – ICMPv4-In）”规则。
+
+
+
+      5.开启后即可ping通。
