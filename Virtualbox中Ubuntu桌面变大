@@ -1,0 +1,27 @@
+https://blog.csdn.net/zhangmeimei_pku/article/details/79597620
+
+Virtualbox中的Ubuntu虚拟机，安装增强功能时出错：未能加载虚拟光驱 VBoxsGuestAdditions.iso到虚拟电脑
+
+dongdong_888 2018-03-18 07:55:19  22053  收藏 10
+分类专栏： ubuntu使用
+版权
+在使用Virtualbox中的Ubuntu虚拟机，结果屏幕分辨率比较低，不方便使用，就想安装增强功能来实现更改分辨率，但是在安装时出错：未能加载虚拟光驱 VBoxsGuestAdditions.iso到虚拟电脑。
+
+
+经过折腾，最后通过互联网找到了解决方法：
+
+进入系统在侧边找到如图加载的虚拟光驱，
+
+
+
+右击，点击弹出，然后就可正常安装增强功能了
+
+
+
+点击安装增强功能，
+
+
+
+点击“运行”
+
+输入登录系统的密码，点击授权，就开始自动安装了
